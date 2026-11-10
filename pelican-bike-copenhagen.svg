@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>A pelican riding a bike in Copenhagen</title>
+  <desc>Cheerful illustration of a pelican cycling past the colorful Nyhavn waterfront houses.</desc>
+
+  <!-- Sky -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe6ff"/>
+      <stop offset="70%" stop-color="#e8f6ff"/>
+      <stop offset="100%" stop-color="#fdf6e3"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90b8"/>
+      <stop offset="100%" stop-color="#2c6485"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="670" cy="110" r="45" fill="#ffe9a8" opacity="0.9"/>
+  <circle cx="670" cy="110" r="30" fill="#ffd65c"/>
+
+  <!-- Clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="150" cy="100" rx="55" ry="24"/>
+    <ellipse cx="195" cy="88" rx="40" ry="22"/>
+    <ellipse cx="110" cy="92" rx="35" ry="18"/>
+    <ellipse cx="520" cy="70" rx="45" ry="18"/>
+    <ellipse cx="560" cy="62" rx="32" ry="16"/>
+  </g>
+
+  <!-- Nyhavn houses (colorful Copenhagen waterfront) -->
+  <g stroke="#3a3a3a" stroke-width="2">
+    <!-- house 1 -->
+    <rect x="60" y="240" width="75" height="150" fill="#c94f4f"/>
+    <polygon points="60,240 97,200 135,240" fill="#a83b3b"/>
+    <rect x="82" y="270" width="20" height="24" fill="#fdf6e3"/>
+    <rect x="82" y="320" width="20" height="24" fill="#fdf6e3"/>
+    <!-- house 2 -->
+    <rect x="135" y="200" width="80" height="190" fill="#f2c14e"/>
+    <polygon points="135,200 175,158 215,200" fill="#d9a83a"/>
+    <rect x="158" y="240" width="22" height="26" fill="#fdf6e3"/>
+    <rect x="158" y="300" width="22" height="26" fill="#fdf6e3"/>
+    <rect x="158" y="360" width="22" height="26" fill="#fdf6e3"/>
+    <!-- house 3 -->
+    <rect x="215" y="255" width="70" height="135" fill="#5aa9c9"/>
+    <polygon points="215,255 250,215 285,255" fill="#4489a6"/>
+    <rect x="236" y="285" width="20" height="22" fill="#fdf6e3"/>
+    <rect x="236" y="335" width="20" height="22" fill="#fdf6e3"/>
+    <!-- house 4 -->
+    <rect x="285" y="215" width="78" height="175" fill="#7fb069"/>
+    <polygon points="285,215 324,175 363,215" fill="#639054"/>
+    <rect x="308" y="250" width="22" height="26" fill="#fdf6e3"/>
+    <rect x="308" y="310" width="22" height="26" fill="#fdf6e3"/>
+    <rect x="308" y="370" width="22" height="26" fill="#fdf6e3"/>
+    <!-- house 5 -->
+    <rect x="363" y="260" width="72" height="130" fill="#e08a5f"/>
+    <polygon points="363,260 399,222 435,260" fill="#c26f47"/>
+    <rect x="384" y="290" width="20" height="24" fill="#fdf6e3"/>
+    <rect x="384" y="340" width="20" height="24" fill="#fdf6e3"/>
+  </g>
+
+  <!-- Quay / embankment -->
+  <rect x="0" y="390" width="800" height="26" fill="#b9a06a"/>
+  <rect x="0" y="390" width="800" height="6" fill="#a58c58"/>
+
+  <!-- Canal water -->
+  <rect x="0" y="416" width="800" height="184" fill="url(#water)"/>
+  <g stroke="#8fc4dd" stroke-width="2" opacity="0.6" stroke-linecap="round">
+    <line x1="60" y1="450" x2="150" y2="450"/>
+    <line x1="200" y1="470" x2="300" y2="470"/>
+    <line x1="480" y1="455" x2="560" y2="455"/>
+    <line x1="600" y1="485" x2="720" y2="485"/>
+    <line x1="120" y1="520" x2="230" y2="520"/>
+    <line x1="520" y1="545" x2="640" y2="545"/>
+    <line x1="330" y1="560" x2="430" y2="560"/>
+  </g>
+
+  <!-- Boat -->
+  <g transform="translate(600,430)">
+    <path d="M-45,10 L45,10 L32,26 L-32,26 Z" fill="#6b4a2b"/>
+    <rect x="-6" y="-45" width="5" height="55" fill="#5a3d22"/>
+    <path d="M-2,-42 L-40,-8 L-2,-8 Z" fill="#ffffff" stroke="#d8d8d8"/>
+    <path d="M2,-38 L34,-10 L2,-10 Z" fill="#eef6fb" stroke="#d8d8d8"/>
+  </g>
+
+  <!-- Ground / bike path -->
+  <rect x="0" y="545" width="800" height="55" fill="#8a8f95"/>
+  <rect x="0" y="545" width="800" height="5" fill="#777c82"/>
+  <!-- dashed bike-lane markings -->
+  <g stroke="#f2f2f2" stroke-width="4" stroke-dasharray="24 20" opacity="0.85">
+    <line x1="0" y1="575" x2="800" y2="575"/>
+  </g>
+
+  <!-- Bicycle -->
+  <g transform="translate(330,470)" stroke="#2b2b2b" stroke-width="6" fill="none" stroke-linecap="round">
+    <!-- wheels -->
+    <circle cx="-70" cy="75" r="46" fill="none"/>
+    <circle cx="90" cy="75" r="46" fill="none"/>
+    <!-- spokes -->
+    <g stroke="#4a4a4a" stroke-width="2">
+      <line x1="-70" y1="29" x2="-70" y2="121"/>
+      <line x1="-116" y1="75" x2="-24" y2="75"/>
+      <line x1="-102" y1="43" x2="-38" y2="107"/>
+      <line x1="-38" y1="43" x2="-102" y2="107"/>
+      <line x1="90" y1="29" x2="90" y2="121"/>
+      <line x1="44" y1="75" x2="136" y2="75"/>
+      <line x1="58" y1="43" x2="122" y2="107"/>
+      <line x1="122" y1="43" x2="58" y2="107"/>
+    </g>
+    <!-- frame -->
+    <path d="M-70,75 L10,75 L60,-10 L10,-10 M10,75 L60,-10 M10,-10 L-10,-30 M10,75 L0,-8 M60,-10 L90,75"/>
+    <!-- handlebar -->
+    <path d="M-12,-32 L22,-42"/>
+    <path d="M22,-42 L34,-34"/>
+    <!-- seat -->
+    <path d="M58,-16 L86,-12" stroke-linecap="round" stroke-width="9"/>
+    <!-- pedals -->
+    <circle cx="10" cy="75" r="7" fill="#2b2b2b"/>
+    <path d="M10,75 L40,95 M10,75 L-20,55"/>
+    <rect x="36" y="92" width="20" height="6" fill="#2b2b2b"/>
+    <rect x="-38" y="52" width="20" height="6" fill="#2b2b2b"/>
+  </g>
+
+  <!-- Pelican -->
+  <g transform="translate(345,330)">
+    <!-- body -->
+    <ellipse cx="0" cy="40" rx="62" ry="52" fill="#f7f7f4" stroke="#cfd2d4" stroke-width="2"/>
+    <!-- tail -->
+    <path d="M-55,30 Q-95,20 -100,45 Q-70,52 -50,58 Z" fill="#e6e8e9" stroke="#cfd2d4" stroke-width="2"/>
+    <!-- wing -->
+    <path d="M-30,20 Q25,-5 55,30 Q20,60 -25,55 Q-45,40 -30,20 Z" fill="#e2e6e8" stroke="#cfd2d4" stroke-width="2"/>
+    <!-- leg to pedal -->
+    <path d="M-10,88 Q-25,120 -12,140" stroke="#e8a13a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M30,88 Q45,120 38,140" stroke="#e8a13a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- foot -->
+    <path d="M-12,140 L-30,150 L0,150 Z" fill="#e8a13a"/>
+    <path d="M38,140 L20,150 L52,150 Z" fill="#e8a13a"/>
+    <!-- neck -->
+    <path d="M25,-5 Q55,-60 70,-110" stroke="#f7f7f4" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M25,-5 Q55,-60 70,-110" stroke="#cfd2d4" stroke-width="26" fill="none" stroke-linecap="round" opacity="0.15"/>
+    <!-- head -->
+    <circle cx="74" cy="-118" r="26" fill="#f7f7f4" stroke="#cfd2d4" stroke-width="2"/>
+    <!-- eye -->
+    <circle cx="84" cy="-124" r="5" fill="#2b2b2b"/>
+    <circle cx="86" cy="-126" r="1.8" fill="#ffffff"/>
+    <!-- beak top -->
+    <path d="M96,-118 Q150,-116 158,-100 Q120,-104 96,-106 Z" fill="#f2b134" stroke="#d99420" stroke-width="2"/>
+    <!-- beak pouch -->
+    <path d="M96,-104 Q120,-104 150,-102 Q130,-72 100,-88 Z" fill="#f7c453" stroke="#d99420" stroke-width="2"/>
+    <!-- head tuft -->
+    <path d="M62,-138 Q56,-150 66,-150" stroke="#cfd2d4" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- helmet -->
+    <path d="M50,-132 Q74,-160 100,-132 Q74,-124 50,-132 Z" fill="#c94f4f" stroke="#a83b3b" stroke-width="2"/>
+    <path d="M50,-134 Q74,-126 100,-134" stroke="#a83b3b" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Motion lines -->
+  <g stroke="#4a4a4a" stroke-width="3" stroke-linecap="round" opacity="0.4">
+    <line x1="150" y1="380" x2="230" y2="380"/>
+    <line x1="130" y1="410" x2="220" y2="410"/>
+    <line x1="160" y1="440" x2="250" y2="440"/>
+  </g>
+
+  <!-- Small Danish flag on a pole -->
+  <g transform="translate(720,330)">
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#6b4a2b" stroke-width="5"/>
+    <rect x="0" y="4" width="54" height="34" fill="#c8102e"/>
+    <rect x="18" y="4" width="8" height="34" fill="#ffffff"/>
+  </g>
+</svg>
